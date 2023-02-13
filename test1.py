@@ -1,1 +1,3 @@
-print("gg")
+import requests
+from bs4 import BeautifulSoup
+
