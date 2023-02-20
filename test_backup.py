@@ -1,8 +1,9 @@
 import requests
 from bs4 import BeautifulSoup
-
+import pyQtTest
 
 #https://www.wordreference.com/검색
+
 wordput=input()
 url=f"https://www.wordreference.com/enko/{wordput}"
 headers = {"User-Agent":"Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36"}
